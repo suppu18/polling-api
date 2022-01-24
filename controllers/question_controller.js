@@ -72,7 +72,7 @@ module.exports.addOptions = function (req, res) {
           question: req.params.id,
           text: req.body.text,
           votes: 0,
-          link: `http://localhost:8000/options/${id}/add_vote`,
+          link: `https://qustion-polling-api.herokuapp.com//option/${id}/add_vote`,
         },
         function (err, optionCreated) {
           if (err) {
