@@ -11,7 +11,7 @@ This is a backend project intended to used at platforms where polling/voting typ
 # Important endpoints of the API
 - Create your own questions: https://qustion-polling-api.herokuapp.com/question/create
 - Delete the questions: https://qustion-polling-api.herokuapp.com/question/:id/delete
-- Add Options to the questions: https://qustion-polling-api.herokuapp.com/question/:id/option/create
+- Add Options to the questions: https://qustion-polling-api.herokuapp.com/question/:id/options/create
 - View questions along with its options: https://qustion-polling-api.herokuapp.com/question/:id
 - Add Votes to the options: https://qustion-polling-api.herokuapp.com/option/:id/delete
 - Delete Options: https://qustion-polling-api.herokuapp.com/option/:id/add_vote
